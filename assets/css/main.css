@@ -256,6 +256,17 @@ section {
   padding: 0 8px;
 }
 
+.card-meta-blogpost {
+  color: #333;
+  font-size: 14px;
+  padding: 16px;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.card-meta-blogpost a {
+  color: #333;
+}
+
 /* Button Read More */
 
 .btn-readmore {
@@ -347,7 +358,7 @@ footer #social-media-footer ul li:hover a .fa-github {
   font-family: "Roboto Condensed", sans-serif;
   border-left: 3px solid black;
   border-right: 3px solid black;
-  transition: 0, 4s;
+  transition: all 0.4s;
   display: inline-block;
   padding: 4px 32px;
   margin-top: 120px;
@@ -389,6 +400,44 @@ footer #social-media-footer ul li:hover a .fa-github {
   border-top: 3px solid black;
 }
 
+/* Single Blogpost */
+
+#post-container {
+  display: flex;
+}
+
+#blogpost {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border-left: 1px solid #999;
+}
+
+#blogpost .card {
+  width: 100%;
+}
+
+#blogpost .card-img:hover {
+  box-shadow: none;
+}
+
+/* Sidebar */
+
+#sidebar {
+  background: #333;
+  flex: 1;
+  padding: 8px 16px;
+  color: white;
+  box-shadow: inset 27px 0 51px -18px rgba(0, 0, 0, 0.75);
+}
+
+/* Comments Section */
+
+#comments-section {
+  border-top: 2px solid #eee;
+  padding: 8px;
+}
+
 /*Media Queries */
 
 @media (min-width: 720px) {
@@ -424,6 +473,15 @@ footer #social-media-footer ul li:hover a .fa-github {
 
   #slideout-menu {
     display: block;
+  }
+
+  #blogpost {
+    width: 100%;
+    border-left: 0;
+  }
+
+  #sidebar {
+    display: none;
   }
 }
 
