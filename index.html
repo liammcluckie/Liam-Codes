@@ -4,8 +4,223 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <title>Document</title>
+    <title>GTCoding</title>
   </head>
-  <body></body>
+  <body>
+    <!--Mobile nav bar-->
+    <div id="slideout-menu">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <input type="text" placeholder="Search Here" />
+          <br />
+          <a href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!--Desktop nav bar-->
+    <nav>
+      <div id="logo-img">
+        <a href="#">
+          <img src="assets/img/logo.png" alt="Liam Codes Logo" />
+        </a>
+      </div>
+      <div id="menu-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <div id="search-icon">
+            <i class="fas fa-search"></i>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div id="search-box">
+      <input type="text" placeholder="Search Here" />
+    </div>
+    <div id="banner">
+      <h1>&lt;Liam Codes/&gt;</h1>
+      <h3>Learn coding from scratch</h3>
+    </div>
+    <main>
+      <a href="#">
+        <h2 class="section-heading">All Blogs</h2>
+      </a>
+      <!--Blog section-->
+      <section>
+        <div class="card">
+          <div class="card-img">
+            <a href="#">
+              <img
+                src="assets/img/1.jpeg"
+                alt="Man working on a laptop on a rooftop with the sunsetting"
+              />
+            </a>
+          </div>
+          <div class="card-description">
+            <a href="#">
+              <h3>The Blog Title Here</h3>
+            </a>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi,
+              aliquid illum illo perferendis obcaecati saepe voluptates quod,
+              nesciunt totam error velit nihil voluptate quae adipisci. Quae
+              molestias aut molestiae mollitia.
+            </p>
+            <a href="#" class="btn-readmore">Read more</a>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+              <a href="#">
+                <img
+                  src="assets/img/2.jpeg"
+                  alt="Man working on a laptop on a rooftop with the sunsetting"
+                />
+              </a>
+            </div>
+            <div class="card-description">
+              <a href="#">
+                <h3>The Blog Title Here</h3>
+              </a>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi,
+                aliquid illum illo perferendis obcaecati saepe voluptates quod,
+                nesciunt totam error velit nihil voluptate quae adipisci. Quae
+                molestias aut molestiae mollitia.
+              </p>
+              <a href="#" class="btn-readmore">Read more</a>
+            </div>
+      </section>
+      <!--Project Section-->
+      <h2 class="section-heading">All Projects</h2>
+      <section>
+        <div class="card">
+          <div class="card-img">
+            <a href="#">
+              <img
+                src="assets/img/3.jpeg"
+                alt="Man working on a laptop on a rooftop with the sunsetting"
+              />
+            </a>
+          </div>
+          <div class="card-description">
+            <a href="#">
+              <h3>The Project Title Here</h3>
+            </a>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi,
+              aliquid illum illo perferendis obcaecati saepe voluptates quod,
+              nesciunt totam error velit nihil voluptate quae adipisci. Quae
+              molestias aut molestiae mollitia.
+            </p>
+            <a href="#" class="btn-readmore">Read more</a>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+              <a href="#">
+                <img
+                  src="assets/img/4.jpeg"
+                  alt="Man working on a laptop on a rooftop with the sunsetting"
+                />
+              </a>
+            </div>
+            <div class="card-description">
+              <a href="#">
+                <h3>The Project Title Here</h3>
+              </a>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi,
+                aliquid illum illo perferendis obcaecati saepe voluptates quod,
+                nesciunt totam error velit nihil voluptate quae adipisci. Quae
+                molestias aut molestiae mollitia.
+              </p>
+              <a href="#" class="btn-readmore">Read more</a>
+            </div>
+      </section>
+      <h2 class="section-heading">Source Code</h2>
+      <section id="section-source">
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam porro expedita rerum maiores odit inventore minima? Provident molestias ipsam quia nostrum. Sunt repudiandae deleniti id aliquid explicabo accusantium voluptas deserunt.
+          </p>
+          <a href="#">GitHub Profile</a>
+      </section>
+      <footer>
+          <div id="left-footer">
+              <h3>Quick Links</h3>
+              <p>
+                  <ul>
+                      <li>
+                          <a href="#">Home</a>
+                      </li>
+                      <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                  </ul>
+              </p>
+          </div>
+          <div id="right-footer">
+              <h3>Follow us on</h3>
+              <div id="social-media-footer">
+                  <ul>
+                      <li>
+                          <a href="#"><i class="fab fa-facebook"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </li>
+                  </ul>
+              </div>
+              <p>This website is developed using the GTCoding Tutorial by Liam McLuckie</p>
+          </div>
+      </footer>
+    </main>
+  </body>
 </html>
